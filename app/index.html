@@ -5,45 +5,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sport</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="content">
-            <header class="header" style="background-image: url(images/bg.jpg);">
-                <div class="container">
-                    
-                    <div class="header__logo">
-                        <a href="#"><img src="images/Sport-bet-logo.png" alt="logo"></a>
-                    </div>
-                    <form class="header__form">
-                        <input type="text" placeholder="لماكلا كمسا"> 
+    <header class="header">
+        <div class="header__bg" style="background-image: url(images/bg.jpg);">
+            <div class="container">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="images/Sport-bet-logo.png" alt="logo"></a>
+                </div>
+
+                <section class="form">
+
+                    <form class="form__login">
+                        <input type="text" placeholder="لماكلا كمسا" required>
                     </form>
-                    <div class="header__title">
+
+                    <div class="form__title">
                         كب صاخلا فتاهلا مقرو
                     </div>
-                    <form class="header__phone">
-                        <input type="text" placeholder=""> 
-                        
-                    </form>
-                    
 
-                       
+                    <form class="form__phone">
+                        <input type="text" placeholder=" _____-____-____" required>
+
+                        <select class="form__phone-code">
+                            <option>+971</option>
+                            <option>+971</option>
+                            <option>+971</option>
+                            <option>+971</option>
+                        </select>
+                        <div class="form__text-checkbox">
+                            * .اًمﺎﻋ 18 يﺮﻤﻋ ﻦﻣ ﺮﺜﻛأ ﺪﻴﻛﺄﺘﻟاو ﺔﻴﺻﻮﺼﺨﻟا ﺔﺳﺎﻴﺳو
+                        </div>
+
+                        <button type="submit" class="form__phone-btn">ناهر عض</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <section class="awards" style="background-image: url(images/awards-bg.jpg);">
+        <div class="container">
+            <div class="awards__box">
+
+                <div class="awards__item">
+                    <div class="awards__item-title">
+                        VIP عضو
+                    </div>
+                    <div class="awards__item-images">
+                        <img src="images/ic_diamond.svg" alt="diamond">
+                    </div>
+
+                    <div class="awards__item-text">
+
+                        ةضايرلا ىلع ناهرلا
+                        <br>٪ 100 نم رثكأ
                     </div>
                 </div>
 
-            </header>
+
+                <div class="awards__item">
+                    <div class="awards__item-title">
+                        مكب ابحرم
+                    </div>
+                    <div class="awards__item-images">
+                        <img src="images/cup.svg" alt="cup">
+                    </div>
+
+                    <div class="awards__item-text">
 
 
+                        الوأ ٪ 100
+                        <br>ةأفاكم عاديإ
+                    </div>
+                </div>
 
+                <div class="awards__item">
+                    <div class="awards__item-title">
+                        تافورصملا
+                    </div>
+                    <div class="awards__item-images">
+                        <img src="images/money.svg" alt="money">
+                    </div>
 
+                    <div class="awards__item-text">
+                        دعبي
+                        <br> نوزئافلا
+                    </div>
+                </div>
 
+                <div class="awards__item">
+                    <div class="awards__item-title">
+                        ةحيرص ةأفاكم
+                    </div>
+                    <div class="awards__item-images">
+                        <img src="images/percent.svg" alt="percent">
+                    </div>
+                    <div class="awards__item-text">
+                        ةحيرص ةأفاكم
+                        <br> ٪05 ىتح
+                    </div>
+                </div>
+            </div>
         </div>
-    <footer class="footer">
+    </section>
 
-    </footer>
-    </div>
+    <section class="registration" style="background-image: url(images/registration.jpg);">
+        <div class="container">
+            <div class="registration__title">
+                ACTIVATE <span>BONUS 100%</span>
+            </div>
+
+            <div class="registration__sum">
+             <div class="registration__text">100 USD</div>  
+            </div>
+        </div>
+
+        
+
+
+    </section>
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
