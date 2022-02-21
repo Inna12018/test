@@ -51,3 +51,19 @@ console.log("Вы классический зритель");
 
 console.log(personalMovieDB);
 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
